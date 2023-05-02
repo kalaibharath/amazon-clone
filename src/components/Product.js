@@ -25,9 +25,9 @@ export default function Product({id,title,price,description,category,image}) {
           
         </div> */}
         <p className="text-xs my-2 line-clamp-2">{description}</p>
-        <div className="my-2">
+        {/* <div className="my-2">
             <Currency quantity={price} currency='usd'/>
-        </div>
+        </div> */}
         
         <button className="mt-auto button">Add to Basket</button>
     </div>
